@@ -1,39 +1,4 @@
-﻿
-
-<script asp-append-version="true" defer>
-    setTimeout(function () {
-        var element = document.querySelector('.alert-success');
-        if (element) {
-            element.remove();
-        }
-    }, 3000);
-</script>
-
-<script asp-append-version="true" defer>
-    window.addEventListener("scroll", function () {
-        var scrollButton = document.querySelector(".scroll-to-top");
-        if (window.scrollY > 300) {
-            scrollButton.style.display = "block";
-        } else {
-            scrollButton.style.display = "none";
-        }
-    });
-
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    }
-</script>
-<a href="#" class="scroll-to-top" onclick="scrollToTop()">Yukarı Çık</a>
-@*@if (TempData["SuccessMessage"] != null)
-{
-    <div class="alert alert-success" style="margin-bottom:0px" role="alert">
-        @TempData["SuccessMessage"]
-    </div>
-}*@
-<div class="hero-wrap ftco-degree-bg" style="background-image: url('/images/lavas2.jpg');" data-stellar-background-ratio="0.5">
+﻿<div class="hero-wrap ftco-degree-bg" style="background-image: url('/images/lavas2.jpg');" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
@@ -152,7 +117,7 @@
                                     <span class="cat">Pişmiş Gramajı</span>
                                     <p class="price ml-auto">170 <span>/g</span></p>
                                 </div>
-                                <p class="d-flex mb-0 d-block"><a href="#" onclick="scrollToTop()" class="btn btn-primary py-2 mr-1">İletişime</a> <a href="#" class="btn btn-secondary py-2 ml-1">Geç</a></p>
+                                <p class="d-flex mb-0 d-block"><a href="#" id="iletisimButton" onclick="scrollToTop()" class="btn btn-primary py-2 mr-1">İletişime</a> <a href="#" id="iletisimButton" class="btn btn-secondary py-2 ml-1">Geç</a></p>
                             </div>
                         </div>
                     </div>
@@ -166,7 +131,7 @@
                                     <span class="cat">Pişmiş Gramajı</span>
                                     <p class="price ml-auto">130 <span>/g</span></p>
                                 </div>
-                                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">İletişime</a> <a href="#" class="btn btn-secondary py-2 ml-1">Geç</a></p>
+                                <p class="d-flex mb-0 d-block"><a href=“tel:05539198607” class="btn btn-primary py-2 mr-1">İletişime</a> <a href="#" class="btn btn-secondary py-2 ml-1">Geç</a></p>
                             </div>
                         </div>
                     </div>                    
@@ -398,7 +363,4 @@
             </div>
         </div>
     </div>
-</section>@*
-<!-- loader -->
-<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
-*@
+</section>
