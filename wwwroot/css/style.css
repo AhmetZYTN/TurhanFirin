@@ -13205,6 +13205,13 @@ textarea.form-control {
     position: relative;
     background: white;
     padding: 0 20px;
+    height: 380px;
+}
+
+.testimony-wrap .text{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
 }
 
     .testimony-wrap .user-img {
@@ -13971,4 +13978,8 @@ textarea.form-control {
         stroke-dasharray: 89, 200;
         stroke-dashoffset: -136px;
     }
+}
+
+.owl-item .item{
+    height:350px;
 }

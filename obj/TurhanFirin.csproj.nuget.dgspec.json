@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AHMET ZEYTUN\\source\\repos\\TurhanFirin\\TurhanFirin.csproj": {}
+    "C:\\Users\\eakkus\\Desktop\\Projects\\TurhanFirin\\TurhanFirin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AHMET ZEYTUN\\source\\repos\\TurhanFirin\\TurhanFirin.csproj": {
+    "C:\\Users\\eakkus\\Desktop\\Projects\\TurhanFirin\\TurhanFirin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AHMET ZEYTUN\\source\\repos\\TurhanFirin\\TurhanFirin.csproj",
+        "projectUniqueName": "C:\\Users\\eakkus\\Desktop\\Projects\\TurhanFirin\\TurhanFirin.csproj",
         "projectName": "TurhanFirin",
-        "projectPath": "C:\\Users\\AHMET ZEYTUN\\source\\repos\\TurhanFirin\\TurhanFirin.csproj",
-        "packagesPath": "C:\\Users\\AHMET ZEYTUN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AHMET ZEYTUN\\source\\repos\\TurhanFirin\\obj\\",
+        "projectPath": "C:\\Users\\eakkus\\Desktop\\Projects\\TurhanFirin\\TurhanFirin.csproj",
+        "packagesPath": "C:\\Users\\eakkus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eakkus\\Desktop\\Projects\\TurhanFirin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AHMET ZEYTUN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eakkus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,8 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
