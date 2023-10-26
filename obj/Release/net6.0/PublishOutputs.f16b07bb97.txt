@@ -1,7 +1,0 @@
-C:\Users\AHMET ZEYTUN\source\repos\TurhanFirin\obj\Release\net6.0\PubTmp\Out\TurhanFirin.exe
-C:\Users\AHMET ZEYTUN\source\repos\TurhanFirin\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
-C:\Users\AHMET ZEYTUN\source\repos\TurhanFirin\obj\Release\net6.0\PubTmp\Out\appsettings.json
-C:\Users\AHMET ZEYTUN\source\repos\TurhanFirin\obj\Release\net6.0\PubTmp\Out\TurhanFirin.dll
-C:\Users\AHMET ZEYTUN\source\repos\TurhanFirin\obj\Release\net6.0\PubTmp\Out\TurhanFirin.deps.json
-C:\Users\AHMET ZEYTUN\source\repos\TurhanFirin\obj\Release\net6.0\PubTmp\Out\TurhanFirin.runtimeconfig.json
-C:\Users\AHMET ZEYTUN\source\repos\TurhanFirin\obj\Release\net6.0\PubTmp\Out\TurhanFirin.pdb
